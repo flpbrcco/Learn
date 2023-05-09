@@ -3,9 +3,9 @@ import re
 print("RegEx - básico\n")  # explicação comentada
 string1 = "frase que será analisada pelo regex porque regex é legal e útil"
 
-print(re.match('frase\n', string1))  # na qual se inicia
+print(re.match('frase', string1))  # na qual se inicia
 
-print(re.match('regex\n', string1))  # na qual se inicia
+print(re.match('regex', string1))  # na qual se inicia
 
 print(re.search('regex', string1))  # busca da palavra na frase
 
